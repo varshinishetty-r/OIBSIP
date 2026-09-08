@@ -1,1 +1,98 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Colorful To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="app">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="icon">✓</div>
+
+            <h1>My To-Do List</h1>
+
+            <p>Plan it. Do it. Complete it. ✨</p>
+        </header>
+
+
+        <!-- Add Task Box -->
+        <div class="add-box">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task..."
+            >
+
+            <button id="addTaskBtn">
+                + Add Task
+            </button>
+
+        </div>
+
+        <div class="task-container">
+
+            <!-- Pending Tasks -->
+            <section class="task-section pending-section">
+
+                <div class="section-title">
+                    <div>
+                        <span class="section-icon">📋</span>
+                        <h2>Pending Tasks</h2>
+                    </div>
+
+                    <span id="pendingCount" class="count pending-count">
+                        0 pending
+                    </span>
+                </div>
+
+                <div id="pendingTasks" class="task-list"></div>
+
+            </section>
+
+
+            <!-- Completed Tasks -->
+            <section class="task-section completed-section">
+
+                <div class="section-title">
+                    <div>
+                        <span class="section-icon">🎉</span>
+                        <h2>Completed Tasks</h2>
+                    </div>
+
+                    <span id="completedCount" class="count completed-count">
+                        0 completed
+                    </span>
+                </div>
+
+                <div id="completedTasks" class="task-list"></div>
+
+            </section>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>Stay organized • Stay productive • Stay happy </p>
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+

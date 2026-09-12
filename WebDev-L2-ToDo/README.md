@@ -42,3 +42,7 @@ To-Do-Web-App/
 
 The objective of this project is to practice **JavaScript DOM manipulation, event handling, CRUD operations, localStorage, and responsive web design** while building a useful task management application.
 
+## 🔗 Connect with Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/varshini-5a476a365
+- 💻 GitHub: https://github.com/varshinishetty-r

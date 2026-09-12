@@ -35,3 +35,7 @@ WebDev-L2-Calculator/
 ## 🎯 Objective
 
 The main objective of this project is to develop a functional and visually appealing calculator while practicing fundamental **HTML, CSS, and JavaScript** concepts.
+
+**##📞Connect with Me**
+●Github - 
+●LinkedIn - https://www.linkedin.com/in/varshini-5a476a365

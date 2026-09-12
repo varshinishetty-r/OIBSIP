@@ -39,4 +39,4 @@ The main objective of this project is to develop a functional and visually appea
 ## 🔗 Connect with Me
 
 - 💼 LinkedIn: https://www.linkedin.com/in/varshini-5a476a365
-- 💻 GitHub: [Your GitHub Profile](YOUR_GITHUB_LINK)
+- 💻 GitHub: https://github.com/varshinishetty-r

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginHub | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+
+    <header class="dashboard-nav">
+        <div class="nav-brand">
+            <div class="mini-logo">SV</div>
+            <span>LoginHub</span>
+        </div>
+
+        <button id="logoutBtn" class="logout-btn">
+            Logout
+        </button>
+    </header>
+
+    <main class="dashboard">
+
+        <section class="welcome-card">
+
+            <div class="welcome-text">
+                <span class="small-label">PRIVATE DASHBOARD</span>
+                <h1>Welcome, <span id="displayUser">User</span> 👋</h1>
+                <p>
+                    You have successfully entered your protected space.
+                </p>
+            </div>
+
+            <div class="shield">
+                🛡️
+            </div>
+
+        </section>
+
+        <section class="dashboard-grid">
+
+            <div class="info-card">
+                <div class="card-icon">✓</div>
+                <h3>Authentication</h3>
+                <p>Your login session is currently active.</p>
+                <span class="status">ACTIVE</span>
+            </div>
+
+            <div class="info-card">
+                <div class="card-icon">🔐</div>
+                <h3>Security</h3>
+                <p>Your stored password uses SHA-256 hashing.</p>
+                <span class="status">PROTECTED</span>
+            </div>
+
+            <div class="info-card">
+                <div class="card-icon">⚡</div>
+                <h3>Access</h3>
+                <p>This dashboard requires successful authentication.</p>
+                <span class="status">VERIFIED</span>
+            </div>
+
+        </section>
+
+        <section class="activity-card">
+            <div>
+                <span class="small-label">ACCOUNT</span>
+                <h2>Security Center</h2>
+            </div>
+
+            <div class="account-row">
+                <span>Username</span>
+                <strong id="accountUsername">---</strong>
+            </div>
+
+            <div class="account-row">
+                <span>Account Status</span>
+                <strong class="green-text">Authenticated</strong>
+            </div>
+
+            <div class="account-row">
+                <span>Session</span>
+                <strong>Active</strong>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

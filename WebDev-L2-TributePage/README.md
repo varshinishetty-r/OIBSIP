@@ -71,3 +71,9 @@ The objective of this project is to practice:
 * Responsive web design
 * Typography and visual hierarchy
 * Creating an engaging webpage using HTML and CSS
+
+## 🔗 Connect with Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/varshini-5a476a365
+- 💻 GitHub: https://github.com/varshinishetty-r
+

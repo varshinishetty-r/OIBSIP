@@ -58,7 +58,7 @@ The application was tested for:
 * Unauthorized dashboard access
 * Logout and session clearing
 
-## 🤝 Connect With Me
+## 🔗 Connect with Me
 
-* **GitHub:** Your GitHub Profile
-* **LinkedIn:** //www.linkedin.com/in/varshini-5a476a365
+- 💼 LinkedIn: https://www.linkedin.com/in/varshini-5a476a365
+- 💻 GitHub: https://github.com/varshinishetty-r

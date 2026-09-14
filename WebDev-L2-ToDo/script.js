@@ -87,8 +87,6 @@ function displayTasks() {
     });
 
 
-    // Display completed tasks
-
     completed.forEach(function(task) {
         createTask(task, completedTasks);
     });

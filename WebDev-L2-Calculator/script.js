@@ -7,7 +7,6 @@ let expression = "";
 let resultShown = false;
 
 
-// Check if the value is an operator
 function isOperator(value) {
 
     return value === "+" ||
@@ -18,7 +17,6 @@ function isOperator(value) {
 }
 
 
-// Update expression on screen
 function updateExpressionDisplay() {
 
     let visibleExpression = expression;
@@ -32,7 +30,6 @@ function updateExpressionDisplay() {
 }
 
 
-// Add numbers and decimal point
 function addNumber(value) {
 
     if (resultShown) {
@@ -48,7 +45,6 @@ function addNumber(value) {
 }
 
 
-// Add an operator
 function addOperator(operator) {
 
     if (resultDisplay.textContent === "Error") {
@@ -76,7 +72,6 @@ function addOperator(operator) {
 }
 
 
-// Calculate the result
 function calculate() {
 
     if (expression === "") {
@@ -121,7 +116,6 @@ function calculate() {
     );
 
 
-    // Check for invalid numbers
     for (let i = 0; i < numbers.length; i++) {
 
         if (isNaN(numbers[i])) {
@@ -132,7 +126,6 @@ function calculate() {
     }
 
 
-    // Handle multiplication and division
     let newNumbers = [numbers[0]];
     let newOperators = [];
 
@@ -176,8 +169,6 @@ function calculate() {
         }
     }
 
-
-    // Handle addition and subtraction
     let answer = newNumbers[0];
 
 
@@ -213,8 +204,6 @@ function calculate() {
     resultShown = true;
 }
 
-
-// Display an error
 function showError() {
 
     resultDisplay.textContent = "Error";
@@ -222,8 +211,6 @@ function showError() {
     resultShown = true;
 }
 
-
-// Clear calculator
 function clearCalculator() {
 
     expression = "";
@@ -236,7 +223,6 @@ function clearCalculator() {
 }
 
 
-// Remove the last character
 function backspace() {
 
     if (resultShown) {
@@ -257,8 +243,6 @@ function backspace() {
     }
 }
 
-
-// Add event listeners to buttons
 buttons.forEach(function(button) {
 
     button.addEventListener("click", function() {
